@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class fel3 {
+import java.util.Scanner;
+
+public class fel3 {
 }
