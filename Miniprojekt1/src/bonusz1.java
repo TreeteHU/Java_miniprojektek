@@ -11,10 +11,10 @@ public class bonusz1 {
         int poharNelkuliKedvezmeny = 10;
 
         // Felhasznói választás
-        System.out.println("Válasszon kávét:");
-        System.out.println("1. Pohár nélkül");
-        System.out.println("2. Dupla cukorral");
-        System.out.println("3. Habos kávé");
+        System.out.println("Válasszon kávét (alapar:100):");
+        System.out.println("1. Pohár nélkül (-10)");
+        System.out.println("2. Dupla cukorral (+20)");
+        System.out.println("3. Habos kávé (+50)");
         int valasztas = scanner.nextInt();
 
         // Számítás az ár alapján
