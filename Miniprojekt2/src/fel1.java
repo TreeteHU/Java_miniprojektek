@@ -4,17 +4,17 @@ public class fel1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Addj meg egy szot: ");
-        String szo = scanner.nextLine();
+        System.out.print("Give a word: ");
+        String word = scanner.nextLine();
 
-        if (szo.length() > 0) {
-            char elsoKarakter = szo.charAt(0);
-            char utolsoKarakter = szo.charAt(szo.length() - 1);
+        if (word.length() > 0) {
+            char firstCharacter = word.charAt(0);
+            char lastCharacter = word.charAt(word.length() - 1);
 
-            System.out.println("Az elso karakter: " + elsoKarakter);
-            System.out.println("Az utolso karakter: " + utolsoKarakter);
+            System.out.println("The first character: " + firstCharacter);
+            System.out.println("The last character: " + lastCharacter);
         } else {
-            System.out.println("Nem adtal meg egy szot se.");
+            System.out.println("You didn't give anything.");
         }
 
         scanner.close();

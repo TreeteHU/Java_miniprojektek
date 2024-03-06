@@ -2,8 +2,8 @@ public class fel3 {
     public static void main(String[] args) {
         String input = "sssjkllllopww223";
         String result = removeDuplicates(input);
-        System.out.println("Eredeti: " + input);
-        System.out.println("Eltavolitott duplikaciok: " + result);
+        System.out.println("Original: " + input);
+        System.out.println("Reoved duplicates string: " + result);
     }
 
     public static String removeDuplicates(String str) {
