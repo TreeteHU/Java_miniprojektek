@@ -1,6 +1,6 @@
 public class fel6 {
     public static void main(String[] args) {
-        int[] array = {5, -5 ,3, 9, 2, 8, 1, 7};
+        int[] array = { 5, -5, 3, 9, 2, 8, 1, 7 };
 
         int smallestNumber = array[0];
         int biggestNumber = array[0];

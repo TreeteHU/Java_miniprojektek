@@ -20,7 +20,6 @@ public class fel3 {
                 }
             }
 
-
             if (!alreadyExists) {
                 sb.append(currentChar);
             }
