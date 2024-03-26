@@ -13,9 +13,8 @@ public class HorrorFilm extends Film implements IKorhataros {
 
     @Override
     public int Buntetes(int kor) {
-        int kulonbseg = kor - korh;
-        if (kulonbseg < 0) {
-            return Math.abs(kulonbseg) * (int) getAr();
+        if (kor < korh) {
+            return (korh - kor) * (int) getAr();
         } else {
             return 0;
         }
